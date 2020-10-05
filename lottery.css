@@ -1,0 +1,37 @@
+body {
+
+}
+
+#machine {
+	background-color: #6199d1;
+	width: 350px;
+	height: 400px;
+	text-align: center;
+	margin: 120px auto;
+	padding: 30px;
+	justify-content: center;
+	box-shadow: -2px 5px 18px 4px rgba(0,0,0,.50);
+	border-radius: 25px;
+}
+
+#button {
+	background-color: #e3e3b5;
+	width: 60%;
+	padding: 15px 30px;
+	border-radius: 25px;
+	margin: 15px auto; 
+	text-transform: uppercase;
+	color: #000;
+	margin-top: 0;
+}
+
+#button:hover {
+	background-color: #bf4073;
+	cursor: pointer;
+	color: #fff;
+}
+
+.big-num {
+	color: purple;
+	font-size: 190px;
+}
