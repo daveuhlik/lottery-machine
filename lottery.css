@@ -4,7 +4,8 @@ body {
 
 #machine {
 	background-color: #6199d1;
-	width: 350px;
+	width: 80%vh;
+	max-width: 350px;
 	height: 400px;
 	text-align: center;
 	margin: 120px auto;
