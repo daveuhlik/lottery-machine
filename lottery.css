@@ -18,6 +18,7 @@ body {
 	background-color: #e3e3b5;
 	width: 60%;
 	padding: 15px 30px;
+	border: unset;
 	border-radius: 25px;
 	margin: 15px auto; 
 	text-transform: uppercase;
