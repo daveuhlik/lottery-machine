@@ -12,7 +12,6 @@ button.addEventListener('click', function() {
 	// actualNumber.classList.add('big-num');
 	// counter.textContent = randomNumber;
 	numberList.push(" " + randomNumber);
-	// console.log(numberList);
 	counter.textContent = numberList;
 	counter.classList.add('final-num');
 
@@ -30,7 +29,6 @@ resetButton.addEventListener('click', function() {
 function reset() {
 	resetButton.style.display = 'none';
 	button.style.display = 'block';
-	// counter.style.display = 'none';
 	numberList = [];
 }
 
