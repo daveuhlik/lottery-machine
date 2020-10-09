@@ -8,6 +8,9 @@ let numberList = [];
 
 button.addEventListener('click', function() {
 	let randomNumber = Math.floor(Math.random() * 99);
+	if (randomNumber === 0) {
+		randomNumber += 1;
+	}
 	// actualNumber.textContent = randomNumber;
 	// actualNumber.classList.add('big-num');
 	// counter.textContent = randomNumber;
